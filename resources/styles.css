@@ -1,1 +1,190 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+html {
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-weight: 600;
+    margin: 40px;
+    text-align: center;
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#text-styles li, #text-styles p {
+    font-size: 20px;
+}
+
+.style, .style h1 {
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+header {
+    height: 90px;
+    background-color:#305F72;
+    color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+    height: 75px;
+    background-color: #305F72;
+    color: whitesmoke;
+}
+
+footer p {
+    line-height: 75px;
+}
+
+nav ul {
+    margin-right: 20px;
+    right: 0px;
+    position: absolute;
+}
+
+nav li {
+    display: inline;
+    line-height: 85px;
+    margin-right: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.color {
+    width: 180px;
+    height: 200px;
+    margin: 7px;
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+    color: rgb(15, 16, 16);
+}
+
+.font {
+    width: 450px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.font p {
+    line-height: 2;
+}
+
+.font h3 {
+    text-decoration: underline;
+    margin-bottom: 8px;
+}
+
+.bluevelvet {
+    background-color: #568EA6;
+}
+
+.pacificblue {
+    background-color: #305F72;
+    color: whitesmoke;
+}
+
+.peach {
+    background-color: #F0B7A4;
+}
+
+.weakflesh {
+    background-color: #F1D1B5;
+}
+
+.blossom {
+    background-color: #F18C8E;
+}
+
+.section {
+    text-align: center;
+    border: 2px  solid rgb(15, 16, 16);
+    border-radius: 30px;
+    display: block;
+    padding: 10px;
+    padding-bottom: 15px;
+    width: 78%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#colors {
+    text-align: center;
+    border: 2px  solid rgb(15, 16, 16);
+    border-radius: 30px;
+    display: block;
+    padding: 10px;
+    padding-bottom: 15px;
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    position: absolute;
+    line-height: 85px;
+    left: 45px;
+    font-size: 45px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.color .container {
+    position: relative;
+    bottom: 12px;
+    line-height: 1.5;
+}
+
+.font p {
+    font-size: 22px;
+}
+
+.font {
+    width: 500px;
+}
+
+.playfairdisplay h3, .playfairdisplay p {
+    font-family: 'Playfair Display', serif;
+}
+
+.merriweather h3, .merriweather p {
+    font-family: 'Merriweather', serif;
+}
+
+.style {
+    margin-top: 10px;
+}
 
